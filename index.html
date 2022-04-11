@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="center" id="search-div">
+      <a href="index.html">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="Google"
+          width="100%"
+        />
+      </a>
+      <div class="search-bar">
+        <img
+          src="res/search-icon-png-9966.png"
+          alt="search icon"
+          id="search-icon"
+        />
+        <form action="https://www.google.com/search" method="GET">
+          <input
+            type="search"
+            name="q"
+            id="query"
+            placeholder="Search the web"
+          />
+
+          <div class="search-buttons">
+            <button
+              type="submit"
+              action="https://www.google.com/search"
+              style="width: 127px"
+            >
+              Google Search
+            </button>
+            <button
+              type="submit"
+              action="https://www.google.com/search"
+              name="btnI"
+              value="I'm Feeling Lucky"
+              style="width: 142px"
+            >
+              I'm Feeling Lucky
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="top-right">
+      <a href="googleadvancedsearch.html" id="toprightattribute">
+        <img
+          height="30px"
+          style="float: left; filter: opacity(0.5) drop-shadow(0 0 0 #757575)"
+          src="https://static.thenounproject.com/png/685343-200.png"
+        />
+        <p id="attributetext">Advanced Search</p>
+      </a>
+    </div>
+    <div class="top-right">
+      <a href="googleimagesearch.html" id="toprightattribute">
+        <img
+          height="30px"
+          style="float: left; filter: opacity(0.5) drop-shadow(0 0 0 #757575)"
+          src="res/search.png"
+        />
+        <p id="attributetext">Image Search</p>
+      </a>
+    </div>
+  </body>
+</html>
