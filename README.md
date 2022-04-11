@@ -1,2 +1,4 @@
 # GoogleHomePage
-Google html home page clone
+
+Google Search Engine clone using HTML and CSS
+
